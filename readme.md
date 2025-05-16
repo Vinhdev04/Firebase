@@ -67,3 +67,51 @@ Nếu bạn gặp lỗi hoặc có đóng góp, vui lòng mở [Issue](https://g
 ---
 
 > 🚧 **Series đang trong quá trình hoàn thiện - hãy theo dõi để nhận cập nhật mới nhất!**
+
+## Firebase
+
+- Firebase là một nền tảng giúp phát triển các ứng dụng di động trong web. Bên cạnh đó, Firebase còn được hiểu là một dịch vụ cơ sở dữ liệu hoạt động trên nền tảng đám mây cloud với hệ thống máy chủ mạnh mẽ của Google.
+- Firebase chứa cơ sở dữ liệu mang đến khả năng code nhanh và thuận tiện hơn. Lập trình viên có thể dễ dàng lập trình ứng dụng bằng cách đơn giản hóa các thao tác với cơ sở dữ liệu sẵn có.
+
+## Thao tác với Firebase
+
+### 🚀 1. Khởi tạo Firebase Database
+
+    ```bash
+    ```
+
+### ✅ 2. CREATE (Tạo dữ liệu) — set()
+
+     ```bash
+     ```
+
+### 🔍 3. READ (Đọc dữ liệu) — get() + ref() + child()
+
+     ```bash
+     ```
+
+### 🛠 4. UPDATE (Cập nhật một phần) — update()
+
+     ```bash
+     ```
+
+### ❌ 5. DELETE (Xóa dữ liệu) — remove()
+
+      ```bash
+      ```
+
+### 📌 Lưu ý thêm:
+
+- Sử dụng ref() để trỏ đến 1 node cụ thể.
+
+- Dùng child() để trỏ đến các node con.
+
+- Trong thực tế, bạn có thể kết hợp push() để tạo ID tự động (giống như Auto-Increment):
+
+  ```bash
+
+  ```
+
+---
+
+## 🔥 So sánh nhanh: Firestore vs Realtime Database
